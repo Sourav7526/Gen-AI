@@ -4,7 +4,7 @@ def given_string(s): # pyright: ignore[reportRedeclaration]
         return "not a valid string"
     return s[:2] + s[-2:]
 print(given_string("coder roots"))
-
+print(given_string("new year"))
 
 user_input = input("enter a string")
 result = given_string(user_input)
