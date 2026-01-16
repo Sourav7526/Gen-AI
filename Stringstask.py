@@ -44,4 +44,4 @@
 # index = int(input("enter index you want to remove"))
 
 # result = remove(string, index)
-# print(result) 
+#print(result) 
