@@ -54,9 +54,9 @@
 
 
 #question 7
-# str=str(input("Enter valid string with spaces:"))
-# count=str.count(" ")
-# print(count)
+# l1=["he  llo","hi ","ho w"]
+# l1=[i.count(' ')for i in l1 if ''in i]
+# print (sum(l1))
 
 
 
