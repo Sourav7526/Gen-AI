@@ -138,7 +138,7 @@ import random
 # n=int(input("Enter a Number"))
 # sum=0
 # for i in range(0,n+1):
-#     sum=sum+i
+#     sum+=i
 # print(sum)
 
 
@@ -291,3 +291,10 @@ import random
 
 
 #question 23
+str=[str(input("Enter strings")) for i in range(0,5)]
+print(str)
+sum = 0
+for s in str:
+    if len(s) >= 2 and s[0] == s[-1]:
+        sum += 1
+print(sum)
