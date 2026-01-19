@@ -90,17 +90,18 @@ import random
 #question 9 missing
 
 #question 10
-# weight=int(input("Enter your weight in kgs :"))
-# height=float(input("enter you height in metres :"))
-# BMI=weight%(height**2)
-# if BMI < 18.5:
-#     print("Underweight")
-# elif BMI<25:
-#     print("Normal weight")
-# elif BMI<30:
-#     print("Underweight")
-# else:
-#     print("Obesity")
+weight=int(input("Enter your weight in kgs :"))
+height=float(input("enter you height in metres :"))
+BMI=weight%(height**2)
+print(BMI)
+if BMI < 18.5:
+    print("Underweight")
+elif BMI<25:
+    print("Normal weight")
+elif BMI<30:
+    print("Underweight")
+else:
+    print("Obesity")
 
 #question 11
 # day=int(input("Enter day of week in numeric :"))
