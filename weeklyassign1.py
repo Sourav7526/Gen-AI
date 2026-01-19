@@ -161,8 +161,8 @@ import random
 
 #question 16
 
-# num = int(input("Enter a number :"))
-# print(sum(int(i)for i in num ))
+# num = input("Enter a number :")
+# print(sum(int(i) for i in num ))
 
 #question 17
 # n=int(input("Enter a number"))
