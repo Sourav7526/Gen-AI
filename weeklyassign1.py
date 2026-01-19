@@ -62,20 +62,20 @@ import random
 #     print("year is not leap year")    
 
 #question 7
+# a = float(input("Enter side a: "))
+# b = float(input("Enter side b: "))
+# c = float(input("Enter side c: "))
 
-# random_number = random.randint(1, 100)
+# if a == b == c:
+#         print("The triangle is Equilateral")
+# elif (a*a + b*b == c*c) or (a*a + c*c == b*b) or (b*b + c*c == a*a):
+#         print("The triangle is Right-angled")
+# elif a == b or b == c or a == c:
+#         print("The triangle is Isosceles")
+# else:
+#         print("The triangle is Scalene")
 
-# print("welcome to random number guess game :")
-# while True:
-#     guess = int(input("Enter your guess: "))
 
-#     if guess < random_number:
-#             print("Too low! Try again.")
-#     elif guess > random_number:
-#             print("Too high! Try again.")
-#     else:
-#             print("Congratulations! You guessed the correct number.")
-        
 
 
 #question 8
@@ -181,18 +181,19 @@ import random
 #question 18
 
 
-# a = float(input("Enter side a: "))
-# b = float(input("Enter side b: "))
-# c = float(input("Enter side c: "))
+# random_number = random.randint(1, 100)
 
-# if a == b == c:
-#         print("The triangle is Equilateral")
-# elif (a*a + b*b == c*c) or (a*a + c*c == b*b) or (b*b + c*c == a*a):
-#         print("The triangle is Right-angled")
-# elif a == b or b == c or a == c:
-#         print("The triangle is Isosceles")
-# else:
-#         print("The triangle is Scalene")
+# print("welcome to random number guess game :")
+# while True:
+#     guess = int(input("Enter your guess: "))
+
+#     if guess < random_number:
+#             print("Too low! Try again.")
+#     elif guess > random_number:
+#             print("Too high! Try again.")
+#     elif:
+#             print("Congratulations! You guessed the correct number.")
+        
 
 
 
