@@ -291,10 +291,10 @@ import random
 
 
 #question 23
-str=[str(input("Enter strings")) for i in range(0,5)]
-print(str)
-sum = 0
-for s in str:
-    if len(s) >= 2 and s[0] == s[-1]:
-        sum += 1
-print(sum)
+# str=[(input("Enter strings")) for i in range(0,5)]
+# print(str)
+# sum = 0
+# for s in str:
+#     if len(s) >= 2 and s[0] == s[-1]:
+#         sum += 1
+# print(sum)
