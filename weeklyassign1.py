@@ -293,7 +293,7 @@ import random
 
 
 #question 23
-# str=[(input("Enter strings")) for i in range(0,5)]
+# str=[(input("Enter string")) for i in range(0,5)]
 # print(str)
 # sum = 0
 # for s in str:
